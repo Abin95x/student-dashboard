@@ -17,11 +17,12 @@ const UpcomingClasses = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className='flex justify-between mt-10'>
-                <div className='flex items-start'>
-                    <div>
+                <div className=' items-start'>
+                    <div className='md:w-full w-1/2'>
                         <h1 className='text-xl font-normal'>Upcoming classes</h1>
-                        <label htmlFor="terms" className='text-xs'>For next 7 days</label>
+                        
                     </div>
+                    <label htmlFor="terms" className='text-xs'>For next 7 days</label>
                 </div>
                 <div className='flex items-end space-x-2'>
                     <div className=' flex items-center'>
@@ -31,7 +32,7 @@ const UpcomingClasses = () => {
                         >
                             Booked only
                         </label>
-                        <Checkbox id="terms" className='mr-10'/>
+                        <Checkbox id="terms" className='mr-10' />
                         <DarkModeToggle />
                     </div>
                 </div>
@@ -64,7 +65,7 @@ const UpcomingClasses = () => {
                                     <div className='flex items-center'>
                                         <div>
                                             <div className='text-gray-400 m-5'>
-                                                <img src={cls.profileImage} className='h-12 w-12 rounded-full' alt="" />
+                                                <img src={cls.profileImage} className='h-12 w-12 rounded-full object-cover' alt="" />
                                             </div>
                                         </div>
                                         <div>
@@ -76,7 +77,6 @@ const UpcomingClasses = () => {
                                 <TableCell className="text-start">
                                     <Button variant="outline">Book Now</Button>
                                 </TableCell>
-
                             </TableRow>
                         ))}
                     </TableBody>
