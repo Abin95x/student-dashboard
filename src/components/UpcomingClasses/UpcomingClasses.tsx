@@ -59,7 +59,9 @@ const UpcomingClasses = () => {
               const checkbox = e.target as HTMLInputElement; // Cast e.target to HTMLInputElement
               const isChecked = checkbox.checked;
               const bookedClassesData = classData.filter(cls => cls.isBooked);
-
+              if(bookedClassesData.length===0){
+                return
+              }
               if (!isChecked) {
                 setClassData(data); // Reset to all classes if checkbox is unchecked
               } else {
