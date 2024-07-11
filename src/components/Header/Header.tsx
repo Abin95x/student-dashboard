@@ -19,7 +19,7 @@ const Header = () => {
           </NavigationMenuList>
         </div>
         <div className=" text-black w-full">
-          <h1 className="text-2xl px-4 font-bold mt-6 dark:text-white">DASHBOARD</h1>
+          <h1 className="text-2xl px-4 font-bold mt-6 dark:text-white">Dashboard</h1>
 
         </div>
       </NavigationMenu>

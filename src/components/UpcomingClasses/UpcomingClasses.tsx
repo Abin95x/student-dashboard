@@ -92,7 +92,7 @@ const UpcomingClasses = () => {
                   <div className="flex items-center">
                     <div className="text-gray-400 m-5">{i + 1}</div>
                     <div>
-                      <div>{cls.className}</div>
+                      <div className='font-medium'>{cls.className}</div>
                       <div className="text-gray-500">{cls.date} {cls.month} {cls.time}</div>
                     </div>
                   </div>

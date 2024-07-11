@@ -7,7 +7,7 @@ const Assignments = () => {
       <div className="mt-4">
         {assignments.map((assignment) => (
           <div key={assignment.id} className="mb-4 p-4 bg-white dark:bg-gray-700 rounded-xl border">
-            <h2 className="text-lg font-medium">{assignment.assignment}</h2>
+            <h2 className="text-base font-normal">{assignment.assignment}</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               {assignment.date} {assignment.month}, {assignment.time}
             </p>
