@@ -1,7 +1,7 @@
 
 import './App.css'
-import UpcomingClasses from './components/UpcomingClasses/UpcomingClasses'
 import { ThemeProvider } from '../src/components/ThemeProvider/ThemeProvider'
+import DashBoard from './pages/DashBoard/DashBoard'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-        <UpcomingClasses />
+         <DashBoard/>
       </ThemeProvider>
     </>
   )
