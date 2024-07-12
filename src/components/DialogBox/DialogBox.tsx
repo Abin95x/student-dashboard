@@ -32,7 +32,7 @@ const DialogBox = ({ title, description, closeBtn, confirmBtn, id, toChild, curr
     return (
         <Dialog>
             <DialogTrigger className={`border ${isBooked ? 'bg-blue-500 dark:bg-blue-500 dark:border-white'  : 'bg-white dark:bg-gray-800 dark:border-white'} rounded-lg px-10 py-3`}>
-                {value} {isBooked ? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> : <div></div>}
+                {value}&nbsp;{isBooked ? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> : <div></div>}
             </DialogTrigger>
 
             <DialogContent className="h-56 bg-white dark:bg-gray-800">

@@ -62,7 +62,7 @@ const TableComponent = ({ paginatedClassData, startIdx, toChild, classData }: ta
                     id={cls.id}
                     toChild={toChild}
                     currentClasses={classData}
-                    value="Book&nbsp; now"
+                    value="Book&nbsp;now"
                   />
                 )}
               </TableCell>
