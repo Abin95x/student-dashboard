@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { classes } from '@/utils/classData';
 import DialogBox from '../DialogBox/DialogBox';
-import { Button } from '../ui/button';
 import {
   Table,
   TableBody,
@@ -14,7 +13,6 @@ import PaginationComponent from '../PaginationComponent/PaginationComponent';
 
 
 
-// const ITEMS_PER_PAGE = 5;
 
 const UpcomingClasses = () => {
   const [data, setData] = useState<any[]>([]);
