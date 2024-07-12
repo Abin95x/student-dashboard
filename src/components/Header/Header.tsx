@@ -8,7 +8,7 @@ import { DarkModeToggle } from '../DarkModeToggle/DarkModeToggle';
 
 const Header = () => {
   return (
-    <div className="bg-white dark:bg-gray-800 h-36 flex justify-between items-center" >
+    <div className="bg-white dark:bg-gray-800 md:h-36 h-24  flex justify-between items-center" >
       <NavigationMenu className="w-full h-full text-gray-400 flex flex-col items-start justify-center px-4 ">
         <div className=" md:block hidden">
           <NavigationMenuList className="flex justify-center space-x-6 items-center px-4">
