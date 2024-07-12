@@ -38,7 +38,7 @@ const PaginationComponent: React.FC<PaginationComponentProps> = ({
   }, [data, itemCount]);
 
   return (
-    <div className=" flex flex-col md:flex-row items-center">
+    <div className=" flex flex-col md:flex-row items-center ">
 
       <Pagination>
         <PaginationContent>
@@ -82,7 +82,7 @@ const PaginationComponent: React.FC<PaginationComponentProps> = ({
       </Pagination>
       <Pagination>
         <NumberDropDown toChild={handleItemCount} />
-      </Pagination> 
+      </Pagination>
     </div>
   );
 };
