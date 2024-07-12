@@ -8,5 +8,6 @@ export interface dialogBoxTypes {
     confirmBtn: string;
     toChild: (passedData: classDataTypes[]) => void;
     currentClasses: classDataTypes[];
+    value: string;
   }
   
