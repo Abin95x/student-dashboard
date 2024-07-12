@@ -19,7 +19,6 @@ export const classes: classDataTypes[] = [
         isBooked: false,
         countdown: 0,
 
-
     },
     {
         id: 2,
@@ -52,7 +51,8 @@ export const classes: classDataTypes[] = [
         profileImage: profile4,
         isBooked: false,
         countdown: 0,
-    }, {
+    },
+    {
         id: 5,
         className: 'Graphic Designing',
         staffName: 'Jerome Bell',
@@ -133,7 +133,8 @@ export const classes: classDataTypes[] = [
         profileImage: profile4,
         isBooked: false,
         countdown: 0,
-    }, {
+    },
+    {
         id: 13,
         className: 'Graphic Designing',
         staffName: 'Jerome Bell',

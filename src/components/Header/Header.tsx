@@ -5,7 +5,6 @@ import {
 } from "../../components/ui/navigation-menu";
 import { DarkModeToggle } from '../DarkModeToggle/DarkModeToggle';
 
-
 const Header = () => {
   return (
     <div className="bg-white dark:bg-gray-800 md:h-36 h-24  flex justify-between items-center" >
@@ -20,12 +19,10 @@ const Header = () => {
         </div>
         <div className=" text-black w-full">
           <h1 className="text-2xl px-4 font-bold mt-6 dark:text-white">Dashboard</h1>
-
         </div>
       </NavigationMenu>
       <div className=" mx-10">
-      <DarkModeToggle />
-
+        <DarkModeToggle />
       </div>
     </div>
   );

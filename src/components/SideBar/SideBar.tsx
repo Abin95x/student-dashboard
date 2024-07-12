@@ -56,12 +56,6 @@ const SideBar = () => {
                     </ul>
                 </nav>
             </div>
-                {/* `<div className="flex items-center p-4  hover:bg-gray-200 dark:hover:text-black dark:text-white cursor-pointer mt-80">
-                    <div className='h-10 w-10 mx-3 bg-gray-200  dark:bg-slate-500 flex justify-center items-center rounded-full'>
-                        <FontAwesomeIcon icon={faCog} />
-                    </div>
-                    <p>Logout</p>
-                </div>` */}
         </div>
     );
 };

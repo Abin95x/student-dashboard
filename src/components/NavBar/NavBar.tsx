@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { faHome, faFile, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import profile1 from '../../assets/profile1.jpeg';
 
-
 const NavBar = () => {
     return (
         <div className='w-full h-24 bg-white dark:bg-gray-700 fixed bottom-0 left-0 right-0 border-t flex items-center justify-around'>
@@ -21,7 +20,6 @@ const NavBar = () => {
                         <Link to='/allclass' className='flex justify-center items-center h-12 w-12   rounded-full'>
                             <div className=' flex flex-col items-center justify-center'>
                                 <FontAwesomeIcon icon={faUserGroup} />
-
                                 <p>
                                     Classes
                                 </p>
@@ -39,10 +37,10 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li>
-                        <div  className='flex justify-center items-center h-12 w-12   rounded-full'>
+                        <div className='flex justify-center items-center h-12 w-12   rounded-full'>
                             <div className=' flex flex-col items-center justify-center'>
-                            <img src={profile1} alt="Profile" className='h-5 w-5 mx-10 rounded-full' />
-                            <p>
+                                <img src={profile1} alt="Profile" className='h-5 w-5 mx-10 rounded-full' />
+                                <p>
                                     Profile
                                 </p>
                             </div>

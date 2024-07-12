@@ -3,10 +3,9 @@ import SideBar from '@/components/SideBar/SideBar';
 import UpcomingClasses from '@/components/UpcomingClasses/UpcomingClasses';
 import NavBar from '@/components/NavBar/NavBar';
 
-
 const AllClasses = () => {
-  return (
-    <div className="flex h-screen">
+    return (
+        <div className="flex h-screen">
             <div>
                 <SideBar />
             </div>
@@ -22,7 +21,7 @@ const AllClasses = () => {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default AllClasses

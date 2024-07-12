@@ -4,8 +4,8 @@ import Assignments from '@/components/Assignments/Assignments';
 import NavBar from '@/components/NavBar/NavBar';
 
 const Assignment = () => {
-  return (
-    <div className="flex h-screen">
+    return (
+        <div className="flex h-screen">
             <div>
                 <SideBar />
             </div>
@@ -21,7 +21,7 @@ const Assignment = () => {
                 </div>
             </div>
         </div>
-)
+    )
 }
 
 export default Assignment

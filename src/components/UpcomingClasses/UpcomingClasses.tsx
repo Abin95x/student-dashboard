@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { classes } from '@/utils/classData';
 import TableComponent from '../TableComponent/TableComponent';

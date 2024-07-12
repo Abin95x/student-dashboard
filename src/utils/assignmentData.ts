@@ -1,7 +1,7 @@
 
 import { assignmentDataTypes } from "@/components/Assignments/assignmentDataTypes";
 
-export const assignments: assignmentDataTypes[]= [
+export const assignments: assignmentDataTypes[] = [
     {
         id: 1,
         assignment: 'logo design',

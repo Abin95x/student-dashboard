@@ -7,7 +7,7 @@ import NavBar from '@/components/NavBar/NavBar';
 const DashBoard = () => {
   return (
     <div className="flex h-screen">
-      <div>
+      <div className=''>
         <SideBar />
       </div>
       <div className="w-full flex flex-col">

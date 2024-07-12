@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent, useEffect } from 'react';
 
 interface NumberDropDownProps {
-  toChild: (value: number) => void; // Adjust the type to match what your parent component expects
+  toChild: (value: number) => void; 
 }
 
 const NumberDropDown: React.FC<NumberDropDownProps> = ({ toChild }) => {

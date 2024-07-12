@@ -1,5 +1,3 @@
-
-
  export interface PaginationPropsType {
     totalPages: number;
     currentPage: number;

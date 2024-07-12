@@ -3,9 +3,6 @@ import AllClasses from '@/pages/AllClasses/AllClasses'
 import Assignment from '@/pages/Assignment/Assignment'
 import DashBoard from '@/pages/DashBoard/DashBoard'
 
-
-
-
 const Router = () => {
   return (
     <Routes>

@@ -39,7 +39,6 @@ const PaginationComponent: React.FC<PaginationComponentProps> = ({
 
   return (
     <div className=" flex flex-col md:flex-row items-center ">
-
       <Pagination>
         <PaginationContent>
           <PaginationItem>
