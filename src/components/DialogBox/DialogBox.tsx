@@ -10,7 +10,8 @@ import {
 } from "@/components/ui/dialog";
 import { dialogBoxTypes } from "./types";
 import { classDataTypes } from "../UpcomingClasses/classDataTypes";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 const DialogBox = ({ title, description, closeBtn, confirmBtn, id, toChild, currentClasses, value }: dialogBoxTypes) => {
 
     const isBooked = currentClasses.find((cls: classDataTypes) => cls.id === id)?.isBooked;
@@ -30,8 +31,8 @@ const DialogBox = ({ title, description, closeBtn, confirmBtn, id, toChild, curr
 
     return (
         <Dialog>
-            <DialogTrigger className={`border ${isBooked ? 'bg-blue-500 dark:bg-blue-500 dark:border-white' : 'bg-white dark:bg-gray-800 dark:border-white'} rounded-lg px-10 py-3`}>
-                {value}
+            <DialogTrigger className={`border ${isBooked ? 'bg-blue-500 dark:bg-blue-500 dark:border-white'  : 'bg-white dark:bg-gray-800 dark:border-white'} rounded-lg px-10 py-3`}>
+                {value} {isBooked ? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> : <div></div>}
             </DialogTrigger>
 
             <DialogContent className="h-56 bg-white dark:bg-gray-800">

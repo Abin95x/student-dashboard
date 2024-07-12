@@ -141,7 +141,7 @@ const UpcomingClasses = () => {
                         id={cls.id}
                         toChild={toChild}
                         currentClasses={classData}
-                        value="Book&nbsp;now"
+                        value="Book&nbsp; now"
                       />
                     )}
                   </TableCell>
