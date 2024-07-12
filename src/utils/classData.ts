@@ -15,7 +15,7 @@ export const classes: classDataTypes[] = [
         staffName: 'Suriya  R',
         dateTime: "15 July 10:00 AM",
         additionalDetails: 'Special focus on algebraic equations',
-        profileImage: profile1,
+        profileImage: profile5,
         isBooked: false,
         countdown: 0,
 
