@@ -9,7 +9,7 @@ const SideBar = () => {
         <div className='md:block hidden min-h-screen w-72 bg-white dark:bg-gray-800 text-gray-800 shadow-md'>
             <div className="flex flex-col h-full">
                 <div className='p-5 items-center justify-center'>
-                    <img src={profile1} alt="Profile" className='h-16 w-16 mx-10 rounded-full' />
+                    <img src={profile1} alt="Profile" className='h-16 w-16 mx-10 rounded-full object-cover' />
                     <div className='ml-4'>
                         <h1 className='font-bold text-lg dark:text-white mx-7'>Abin PV</h1>
                         <p className='text-gray-500 text-xs mx-7'>Intermediate</p>
